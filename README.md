@@ -1,13 +1,13 @@
 # bWAPP-Docker ![bWAPP](bWAPP/images/bee_1.png)
 
-This Docker image is specifically created for the bWAPP application version 2.2, which serves as a learning and demonstration platform for various web application vulnerabilities.
+This Docker image is specifically created for the [bWAPP](http://www.itsecgames.com/) application version 2.2, which serves as a learning and demonstration platform for various web application vulnerabilities.
 
 ## Why?
 
-Installing and configuring PHP based web apps can be quite time consuming as you need to install various packages like PHP, Apache, MySQL etc...
-This Docker image eliminates(automates;) this tedious process and provides you with a click and run solution that will provide you with a bWAPP instance in a few seconds.
+Installing and configuring PHP-based web apps can be quite time-consuming as you need to install various packages like PHP, Apache, MySQL, etc...
+This Docker image eliminates(automates;) this tedious process and provides you with a click-and-run solution that will provide you with a bWAPP instance in a few seconds.
 
-Others Docker already exist for bWAPP, but they contains netcat-openbsd instead of netcat-traditional for revers shell. I just swapped the two packages.
+Other Dockers already exist for bWAPP, but they contain netcat-openbsd instead of netcat-traditional for a reverse shell. I just swapped the two packages.
 
 ## Setup
 
@@ -41,7 +41,7 @@ After running the bWAPP container, navigate to http://127.0.0.1/install.php to c
 
 ### Manually initialize the bWAPP database
 
-You can also manually initialize the bWAPP database by running the following commands, but usually this is not required.
+You can also manually initialize the bWAPP database by running the following commands, but usually, this is not required.
 
 Connection to the bWAPP container
 

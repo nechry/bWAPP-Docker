@@ -37,7 +37,7 @@ docker run -d -p 80:80 --hostname bwapp --name bwapp nechry/bwapp-docker:latest
 
 ## Installing bWAPP
 
-After running the bWAPP container, navigate to http://127.0.0.1/install.php to complete the bWAPP setup process.
+After running the bWAPP container, navigate to [http://127.0.0.1/install.php](http://127.0.0.1/install.php) to complete the bWAPP setup process.
 
 ### Manually initialize the bWAPP database
 
@@ -55,4 +55,4 @@ Connect to MySQL server
 mysql -uroot -p
 ```
 
-Paste the content of the SQL bwapp_schema.sql script
+Paste the content of the [SQL bwapp_schema.sql](bwapp_schema.sql) script.
